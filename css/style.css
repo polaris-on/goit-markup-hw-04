@@ -148,7 +148,7 @@ img {
 .hero {
   padding: 188px 0;
   text-align: center;
-  min-height: 80vh;
+
   background-color: #2e2f42;
 }
 .hero-title {
@@ -266,14 +266,13 @@ img {
   gap: 48px 24px;
 }
 .portfolio-card {
-  flex-basis: calc((100% - 48) / 3);
+  flex-basis: calc((100% - 48px) / 3);
   flex-shrink: 1;
 }
 .portfolio-card:hover {
 }
 .card {
   background: #fff;
-  /* border-bottom: 1px solid #e7e9fc; */
   cursor: pointer;
 }
 .card:hover {
@@ -299,7 +298,6 @@ img {
   letter-spacing: 0.02em;
 }
 .card-category {
-  margin: 0 16px;
   color: #434455;
 
   line-height: 150%;
