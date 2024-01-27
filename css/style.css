@@ -401,8 +401,10 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.card-image {
+.card-image-wrapper {
   position: relative;
+}
+.card-image {
   z-index: 1;
 }
 .card-text {
@@ -450,7 +452,7 @@ img {
   transform: translateY(100%);
 }
 .card:hover .card-description {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 .footer {
   background-color: #2e2f42;
